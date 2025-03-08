@@ -32,6 +32,7 @@ const columns = [
     accessor: "actions",
   },
 ];
+
 const ResultListPage = () => {
   const renderRow = (item: Announcement) => (
     <tr
