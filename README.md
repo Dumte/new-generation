@@ -1,4 +1,4 @@
-# Lama Dev School Management Dashboard
+# New Generation Group of Schools Management Dashboard
 
 ## Getting Started
 
@@ -18,9 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Learn More
+## NOTE
 
-To learn more about Next.js, take a look at the following resources:
+This is just the front-end.
 
-- [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
-- [Next.js](https://nextjs.org/learn)
+## Credit
+My sincere appreciation goes to LAMA DEV for allowing this project for open source. Thank YOU SIR
