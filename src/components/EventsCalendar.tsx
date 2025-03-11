@@ -11,21 +11,21 @@ type Value = ValuePiece | [ValuePiece, ValuePiece];
 const events = [
   {
     id: 1,
-    title: "Lorem, ipsum dolor",
-    time: "12:00 PM - 2:00 PM",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+    title: "New Generation Day",
+    time: "10:00 AM - 1:00 PM",
+    description: "To mark the 20th anniversary of the school, the management has set aside August 23rd 2025 as the School Anniversary Celebration.",
   },
   {
     id: 2,
-    title: "Lorem, ipsum dolor",
-    time: "12:00 PM - 2:00 PM",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+    title: "Science Students' Escortion",
+    time: "08:00 AM - 2:00 PM",
+    description: "An official visit to Kainji Dam, Niger State. Proudly organize by some prominent people in the community.",
   },
   {
     id: 3,
-    title: "Lorem, ipsum dolor",
-    time: "12:00 PM - 2:00 PM",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+    title: "Inter-House Sport Competition",
+    time: "10:00 AM - 3:00 PM",
+    description: "The school annual inter-house sport competition. Click for to more about this year's edition",
   },
 ];
 const EventsCalendar = () => {
