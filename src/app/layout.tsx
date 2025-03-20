@@ -6,7 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "New Generation Group Of Schools Management Dashboard",
-  description: "A school management dashboard for build for the school by a former teacher who turned to a developer",
+  description:
+    "A school management dashboard for build for the school by a former teacher who turned to a developer",
 };
 
 export default function RootLayout({
