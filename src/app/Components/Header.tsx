@@ -53,24 +53,28 @@ const Header = () => {
   return (
     <header className="fixed top-0 shadow-md z-50 w-full bg-slate-600 text-white">
       <div className="container mx-auto flex justify-between items-center h-[15vh] px-4">
-        <div className="flex gap-2 justify-center items-center">
-          <Image
-            src="/logo.png"
-            alt="school logo"
-            width={50}
-            height={50}
-            priority
-          />
-          <div className="flex flex-col text-center">
-            <h1 className="text-newGenerationPurple text-3xl font-semibold">
-              New Generation Academy
-              <span className="text-newGenerationYellow italic text-4xl">
-                !
-              </span>
-            </h1>
-            <p className="text-sm text-white italic">...the right place for your kid</p>
+        <Link href="/">
+          <div className="flex gap-2 justify-center items-center cursor-pointer">
+            <Image
+              src="/logo.png"
+              alt="school logo"
+              width={50}
+              height={50}
+              priority
+            />
+            <div className="flex flex-col text-center">
+              <h1 className="text-newGenerationPurple text-xl md:text-2xl font-semibold">
+                New Generation Academy
+                <span className="text-newGenerationYellow italic text-4xl">
+                  !
+                </span>
+              </h1>
+              <p className="text-sm text-white italic">
+                ...the right place for your kid
+              </p>
+            </div>
           </div>
-        </div>
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-4">
