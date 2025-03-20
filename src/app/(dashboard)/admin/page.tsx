@@ -5,7 +5,10 @@ import EventsCalendar from "@/components/EventsCalendar";
 import FinanceChart from "@/components/FinanceChart";
 import UserCard from "@/components/UserCard";
 
-const AdminPage = () => {
+const AdminPage = async () => {
+  // just to test the loading spinner
+  await new Promise((resolve) => setTimeout(resolve, 2000));
+
   return (
     <div className="p-4 flex flex-col md:flex-row gap-4">
       {/* LEFT */}

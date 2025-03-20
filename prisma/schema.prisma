@@ -1,9 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -106,7 +100,7 @@ model Lesson {
 
 // model Attendance {}
 
-// -------- ENUMS ---------
+// -------- ENUMS CREATED FOR TABLE COLUMN WITH SPECIFIC VARIABLES---------
 // Enu for sex since it will only be a male or female
 enum UserSex {
   MALE

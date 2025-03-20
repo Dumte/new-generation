@@ -2,7 +2,10 @@ import Announcements from "@/components/Announcements";
 import BigCalendar from "@/components/BigCalendar";
 import EventsCalendar from "@/components/EventsCalendar";
 
-const StudentPage = () => {
+const StudentPage =async () => {
+  // just to test the loading spinner
+  await new Promise((resolve) => setTimeout(resolve, 2000));
+
   return (
     <div className="p-4 gap-4 flex flex-col xl:flex-row">
       {/* LEFT */}

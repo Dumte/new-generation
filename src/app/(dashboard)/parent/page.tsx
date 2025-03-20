@@ -2,7 +2,10 @@ import Announcements from "@/components/Announcements";
 import BigCalendar from "@/components/BigCalendar";
 import React from "react";
 
-const ParentPage = () => {
+const ParentPage = async () => {
+  // just to test the loading spinner
+  await new Promise((resolve) => setTimeout(resolve, 2000));
+
   return (
     <div className="flex-1 p-4 gap-4 flex flex-col xl:flex-row">
       {/* LEFT */}
