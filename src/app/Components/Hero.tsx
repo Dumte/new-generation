@@ -16,7 +16,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Change image every 5 seconds
+    }, 3000); // Change image every 5 seconds
 
     return () => clearInterval(interval); // Cleanup interval on unmount
   }, [images.length]);
@@ -79,7 +79,7 @@ const Hero = () => {
       {/* Previous Button */}
       <button
         onClick={prevImage}
-        className="absolute left-4 z-30 p-3 bg-black bg-opacity-50 text-white rounded-full hover:bg-opacity-70 transition-all"
+        className="absolute left-4 z-30 p-3 bg-black bg-opacity-20 text-white rounded-full hover:bg-opacity-70 transition-all"
         aria-label="Previous Slide"
       >
         &lt; {/* Left arrow */}
@@ -88,7 +88,7 @@ const Hero = () => {
       {/* Next Button */}
       <button
         onClick={nextImage}
-        className="absolute right-4 z-30 p-3 bg-black bg-opacity-50 text-white rounded-full hover:bg-opacity-70 transition-all"
+        className="absolute right-4 z-30 p-3 bg-black bg-opacity-20 text-white rounded-full hover:bg-opacity-70 transition-all"
         aria-label="Next Slide"
       >
         &gt; {/* Right arrow */}
