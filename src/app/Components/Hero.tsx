@@ -58,7 +58,7 @@ const Hero = () => {
 
       {/* Text Content */}
       <div className="relative z-20 text-center text-white">
-        <h1 className="text-5xl font-bold">Welcome to Greenfield School</h1>
+        <h1 className="text-5xl font-bold">Welcome to <span className="text-blue-500">New Generation Group of Schools</span></h1>
         <p className="mt-4 text-xl">
           Empowering students to achieve excellence in academics, sports, and
           life.
