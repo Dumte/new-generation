@@ -51,15 +51,15 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 shadow-md z-50 w-full bg-slate-600 text-white">
+    <header className="fixed top-0 shadow-md z-50 w-full bg-blue-600 text-white">
       <div className="container mx-auto flex justify-between items-center h-[15vh] px-4">
         <Link href="/">
           <div className="flex gap-2 justify-center items-center cursor-pointer">
             <Image
               src="/logo.png"
               alt="school logo"
-              width={50}
-              height={50}
+              width={70}
+              height={70}
               priority
             />
             <div className="flex flex-col text-center">
