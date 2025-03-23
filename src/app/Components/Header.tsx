@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa"; // Icons for the mobile menu
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
   const [activeSection, setActiveSection] = useState<string>("");
@@ -14,10 +14,10 @@ const Header = () => {
   const handleNavigation = (id: string, event: React.MouseEvent) => {
     const element = document.getElementById(id);
     if (element) {
-      event.preventDefault(); // Prevent default navigation
+      event.preventDefault();
       element.scrollIntoView({ behavior: "smooth" });
     }
-    setIsMobileMenuOpen(false); // Close mobile menu after navigation
+    setIsMobileMenuOpen(false); 
   };
 
   // Track active section on scroll
@@ -47,25 +47,26 @@ const Header = () => {
     { id: "academics", label: "Academics", href: "/#academics" },
     { id: "events", label: "Events", href: "/#events" },
     { id: "newsLetter", label: "News Letter", href: "/#newsLetter" },
+    { id: "gallery", label: "Gallery", href: "/#gallery" },
     { id: "contact", label: "Contact Us", href: "/#contact" },
   ];
 
   return (
-    <header className="fixed top-0 shadow-md z-50 w-full bg-slate-600 text-white">
+    <header className="fixed top-0 shadow-md z-50 w-full bg-blue-600 text-white">
       <div className="container mx-auto flex justify-between items-center h-[15vh] px-4">
         <Link href="/">
           <div className="flex gap-2 justify-center items-center cursor-pointer">
             <Image
               src="/logo.png"
               alt="school logo"
-              width={50}
-              height={50}
+              width={70}
+              height={70}
               priority
             />
             <div className="flex flex-col text-center">
               <h1 className="text-newGenerationPurple text-xl md:text-2xl font-semibold">
                 New Generation Academy
-                <span className="text-newGenerationYellow italic text-xl md:text-4xl">
+                <span className="text-newGenerationYellow italic text-xl md:text-3xl">
                   !
                 </span>
               </h1>

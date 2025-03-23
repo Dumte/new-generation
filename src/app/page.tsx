@@ -6,6 +6,7 @@ import Academics from "./Components/Academics";
 import Events from "./Components/Events";
 import Newsletter from "./Components/NewsLetter";
 import Contact from "./Components/Contact";
+import Gallery from "./Components/Gallery";
 
 const Homepage = () => {
   return (
@@ -17,22 +18,25 @@ const Homepage = () => {
       <Hero />
 
       {/* ABOUT SECTION */}
-      <About />
+      {/* <About /> */}
 
       {/* ADMISSION SECTION */}
-      <Admissions />
+      {/* <Admissions /> */}
 
       {/* ACADEMICS */}
-      <Academics />
+      {/* <Academics /> */}
 
       {/* EVENTS */}
-      <Events />
+      {/* <Events /> */}
 
       {/* NEWSLETTER */}
-      <Newsletter />
+      {/* <Newsletter /> */}
+
+      {/* Gallery */}
+      {/* <Gallery /> */}
 
       {/* CONTACT US */}
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 };
