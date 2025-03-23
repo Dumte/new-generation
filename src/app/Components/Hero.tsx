@@ -3,11 +3,12 @@
 import { useEffect, useState } from "react";
 import { slideshow } from "@/app/data";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 const Hero = () => {
   const router = useRouter();
 
-  // fucntion to handle "Go to Daschboard" button click
+  // Function to handle "Go to Dashboard" button click
   const handleClick = () => {
     router.push("/admin");
   };
@@ -18,10 +19,10 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % slideshow.length);
-    }, 5000); 
+    }, 5000);
 
     return () => clearInterval(interval);
-  }, [slideshow.length]);
+  }, [slideshow]);
 
   // Go to next image
   const nextImage = () => {
@@ -46,13 +47,11 @@ const Hero = () => {
               index === currentImageIndex ? "opacity-100" : "opacity-0"
             }`}
           >
-
-            <img
+            <Image
               src={image}
-              alt={`Hero Image ${index + 1}`}
-              className="w-full h-full object-cover"
+              alt={`Hero Image ${index + 1}`} layout="fill" objectFit="cover"
+              className="w-full h-full"
               />
-              <p>hello</p>
           </div>
         ))}
       </div>
@@ -93,7 +92,7 @@ const Hero = () => {
         className="absolute right-4 z-30 p-3 bg-black bg-opacity-10 text-white rounded-full hover:bg-opacity-70 transition-all"
         aria-label="Next Slide"
       >
-        &gt; {/* Right arrow */}
+        &gt;
       </button>
     </section>
   );
