@@ -24,3 +24,31 @@ export const slideshow = [
   "/slideshow/hero2.jpg",
   "/slideshow/hero3.jpg",
 ];
+
+// Academics levels
+export const academicsLevels = [
+  {
+    name: "Daycare",
+    href: "/academics/daycare",
+  },
+  {
+    name: "Pre-Nusery",
+    href: "/academics/pre-nursery",
+  },
+  {
+    name: "Nursery",
+    href: "/academics/nursery",
+  },
+  {
+    name: "Primary",
+    href: "/academics/primary",
+  },
+  {
+    name: "Junior Secondary",
+    href: "/academics/junior-secondary",
+  },
+  {
+    name: "Senior Secondary",
+    href: "/academics/senior-secondary",
+  },
+];

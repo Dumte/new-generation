@@ -24,7 +24,7 @@ const Homepage = () => {
       {/* <Admissions /> */}
 
       {/* ACADEMICS */}
-      {/* <Academics /> */}
+      <Academics />
 
       {/* EVENTS */}
       {/* <Events /> */}
