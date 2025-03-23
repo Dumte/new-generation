@@ -18,13 +18,8 @@ const Hero = () => {
   // Automatically cycle through slideshow
   useEffect(() => {
     const interval = setInterval(() => {
-<<<<<<< HEAD
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % slideshow.length);
     }, 5000);
-=======
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000); // Change image every 5 seconds
->>>>>>> 11c7bdc9a5f0ec5c78e65cf1a20695cc8b4b6c3f
 
     return () => clearInterval(interval);
   }, [slideshow]);
@@ -66,13 +61,7 @@ const Hero = () => {
 
       {/* Text Content */}
       <div className="relative z-20 text-center text-white">
-<<<<<<< HEAD
-          Welcome to{" "}
-          <span className="text-purple-500">New Generation Academy</span>
-        </h1>
-=======
         <h1 className="text-5xl font-bold">Welcome to <span className="text-blue-500">New Generation Group of Schools</span></h1>
->>>>>>> 11c7bdc9a5f0ec5c78e65cf1a20695cc8b4b6c3f
         <p className="mt-4 text-xl">
           Empowering students to achieve excellence in academics, sports, and
           life.
@@ -88,11 +77,7 @@ const Hero = () => {
       {/* Previous Button */}
       <button
         onClick={prevImage}
-<<<<<<< HEAD
-        className="absolute left-4 z-30 p-3 bg-black bg-opacity-10 text-white rounded-full hover:bg-opacity-70 transition-all"
-=======
         className="absolute left-4 z-30 p-3 bg-black bg-opacity-20 text-white rounded-full hover:bg-opacity-70 transition-all"
->>>>>>> 11c7bdc9a5f0ec5c78e65cf1a20695cc8b4b6c3f
         aria-label="Previous Slide"
       >
         &lt;
@@ -101,11 +86,7 @@ const Hero = () => {
       {/* Next Button */}
       <button
         onClick={nextImage}
-<<<<<<< HEAD
-        className="absolute right-4 z-30 p-3 bg-black bg-opacity-10 text-white rounded-full hover:bg-opacity-70 transition-all"
-=======
         className="absolute right-4 z-30 p-3 bg-black bg-opacity-20 text-white rounded-full hover:bg-opacity-70 transition-all"
->>>>>>> 11c7bdc9a5f0ec5c78e65cf1a20695cc8b4b6c3f
         aria-label="Next Slide"
       >
         &gt;
