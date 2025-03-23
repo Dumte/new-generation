@@ -67,7 +67,6 @@ const Hero = () => {
       {/* Text Content */}
       <div className="relative z-20 text-center text-white">
 <<<<<<< HEAD
-        <h1 className="text-5xl font-bold">
           Welcome to{" "}
           <span className="text-purple-500">New Generation Academy</span>
         </h1>
