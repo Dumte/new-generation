@@ -2,6 +2,7 @@ import Link from "next/link";
 import { academicsLevels } from "../data";
 const Academics = () => {
   return (
+<<<<<<< HEAD
     <section id="academics" className="mx-auto py-8 w-full max-w-[80%]">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-3 mx-2 lg:grid-cols-3 ">
         {academicsLevels.map((level) => (
@@ -30,6 +31,16 @@ const Academics = () => {
             </div>
           </Link>
         ))}
+=======
+    <section id="academics" className="py-8 w-full max-w-[80%] bg-blue-100 mx-auto">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-3 mx-2 ">
+        {academicsLevels.map((level) => (
+         <Link href={level.href} key={level.name} className=" w-full h-64 rounded-lg bg-blue-500 p-6 text-center shadow-md transition-all hover:bg-blue-200 hover:shadow-lg">
+            <h3 className="text-xl font-semibold">{level.name}</h3>
+        </Link> 
+        ))
+          }
+>>>>>>> 0e028e986563b5c90c27ae7c146a712259778e88
       </div>
     </section>
   );
