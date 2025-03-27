@@ -49,9 +49,11 @@ const Hero = () => {
           >
             <Image
               src={image}
-              alt={`Hero Image ${index + 1}`} layout="fill" objectFit="cover"
+              alt={`Hero Image ${index + 1}`}
+              layout="fill"
+              objectFit="cover"
               className="w-full h-full"
-              />
+            />
           </div>
         ))}
       </div>
@@ -61,7 +63,13 @@ const Hero = () => {
 
       {/* Text Content */}
       <div className="relative z-20 text-center text-white">
-        <h1 className="text-5xl font-bold">Welcome to <span className="text-blue-500">New Generation Academy</span></h1>
+        <h1 className="text-5xl font-bold">
+          Welcome to{" "}
+          <span className="text-blue-500">
+            New Generation Academy
+            <span className="bg-newGenerationYellow">!</span>
+          </span>
+        </h1>
         <p className="mt-4 text-xl">
           Empowering students to achieve excellence in academics, sports, and
           life.
