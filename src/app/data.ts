@@ -30,37 +30,37 @@ export const academicsLevels = [
   {
     name: "Daycare",
     href: "/academics/daycare",
-    image: "/images/daycare.jpg",
+    image: "/academics-images/daycare.jpg",
     description: "A safe and nurturing environment for todlers",
   },
   {
     name: "Pre-Nusery",
     href: "/academics/pre-nursery",
-    image: "/images/daycare.jpg",
+    image: "/academics-images/daycare.jpg",
     description: "Early learning programs for young children",
   },
   {
     name: "Nursery",
     href: "/academics/nursery",
-    image: "/images/nursery.jpg",
+    image: "/academics-images/nursery.jpg",
     description: "Building foundation skills for kindergarten",
   },
   {
     name: "Primary",
     href: "/academics/primary",
-    image: "/images/primary.jpg",
+    image: "/academics-images/primary.jpg",
     description: "A strong academice foundation for young learners",
   },
   {
     name: "Junior Secondary",
     href: "/academics/junior-secondary",
-    image: "/images/junior-secondary.jpg",
+    image: "/academics-images/junior-secondary.jpg",
     description: "Preparing students for higher education",
   },
   {
     name: "Senior Secondary",
     href: "/academics/senior-secondary",
-    image: "/images/senior-secondary.jpg",
+    image: "/academics-images/senior-secondary.jpg",
     description: "Focused on academic excellence and career readiness",
   },
 ];

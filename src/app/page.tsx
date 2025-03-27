@@ -7,6 +7,7 @@ import Events from "./Components/Events";
 import Newsletter from "./Components/NewsLetter";
 import Contact from "./Components/Contact";
 import Gallery from "./Components/Gallery";
+import Footer from "./Components/Footer";
 
 const Homepage = () => {
   return (
@@ -37,6 +38,9 @@ const Homepage = () => {
 
       {/* CONTACT US */}
       {/* <Contact /> */}
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
