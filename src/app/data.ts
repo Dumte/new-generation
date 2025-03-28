@@ -64,3 +64,4 @@ export const academicsLevels = [
     description: "Focused on academic excellence and career readiness",
   },
 ];
+

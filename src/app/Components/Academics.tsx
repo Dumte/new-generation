@@ -2,7 +2,7 @@ import Link from "next/link";
 import { academicsLevels } from "../data";
 const Academics = () => {
   return (
-    <section id="academics" className="mx-auto py-8 w-full max-w-[80%]">
+    <section id="academics" className="mx-auto py-8 w-full max-w-[90%]">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-3 mx-2 lg:grid-cols-3 ">
         {academicsLevels.map((level) => (
           <Link

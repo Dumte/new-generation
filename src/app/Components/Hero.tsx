@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { slideshow } from "@/app/data";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { FaArrowRight } from "react-icons/fa";
 
 const Hero = () => {
   const router = useRouter();
@@ -108,9 +109,12 @@ const Hero = () => {
         <div className="flex  gap-2">
           <button
             onClick={handleClick}
-            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+            className="flex px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
           >
-            Go to dashboard
+            Go to dashboard{" "}
+            <span className="ml-2 my-auto">
+              <FaArrowRight />
+            </span>
           </button>
           <button
             onClick={handleClick}
