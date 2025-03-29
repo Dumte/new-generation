@@ -19,17 +19,16 @@ const Footer = () => {
           <div className="flex flex-col md:items-start items-center">
             <h3 className="text-white">Address</h3>
             <p className="text-gray-500 italic">
-              The Ascension Apostolic Church, Zone 3 Hqtr, Wiiyakara Town,
-              Khalga
+              Assemblies of God, Church 1, Barakarawa, Wiiyakara Town, Khalga
             </p>
           </div>
           <div className="flex flex-col md:items-start items-center">
             <h3 className="text-white">Email</h3>
-            <p className="text-gray-500 italic">newgeneration@gmail.com</p>
+            <p className="text-gray-500 italic">evangelacademy@gmail.com</p>
           </div>
           <div className="flex flex-col md:items-start items-center">
             <h3 className="text-white">Phone</h3>
-            <p className="text-gray-500 italic">+23481-123-456-78</p>
+            <p className="text-gray-500 italic">+234 (070) 3212-7871</p>
           </div>
         </div>
 
@@ -71,22 +70,29 @@ const Footer = () => {
       <hr className="my-6 max-w-[50%] mx-auto md:hidden" />
 
       <div className="flex flex-col ">
+        <div className="container mx-auto mt-4 flex flex-col items-center space-y-2 sm:flex-row sm:justify-between sm:space-y-0">
+          <div className="text-md font-semibold">
+            Copyright &copy;<span className="text-white">{currentYear}</span>.
+            All rights reserved
+          </div>
 
-      <div className="container mx-auto mt-4 flex flex-col items-center space-y-2 sm:flex-row sm:justify-between sm:space-y-0">
-        <div className="text-md font-semibold">
-          Copyright &copy;<span className="text-white">{currentYear}</span>. All
-          rights reserved
+          <nav className="flex space-x-4">
+            <Link href="/privacy" className="hover:text-newGenerationYellow">
+              Privacy Policy
+            </Link>
+          </nav>
         </div>
-
-        <nav className="flex space-x-4">
-          <Link href="/privacy" className="hover:text-newGenerationYellow">
-            Privacy Policy
-          </Link>
-        </nav>
-      </div>
-      <div className="flex items-center justify-center">
-        <h3 className="text-xs italic text-gray-300">Design and crafted by <Link href="https://linkedin.com/in/dnjosh10" className="text-white hover:underline" >DN Josh</Link></h3>
-      </div>
+        <div className="flex items-center justify-center">
+          <h3 className="text-xs italic text-gray-300">
+            Design by {" "}
+            <Link
+              href="https://linkedin.com/in/dnjosh10"
+              className="text-white hover:underline"
+            >
+              DN Josh
+            </Link>
+          </h3>
+        </div>
       </div>
     </footer>
   );

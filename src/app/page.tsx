@@ -19,7 +19,7 @@ const Homepage = () => {
       <Hero />
 
       {/* ABOUT SECTION */}
-      {/* <About /> */}
+      <About />
 
       {/* ADMISSION SECTION */}
       {/* <Admissions /> */}
@@ -37,7 +37,7 @@ const Homepage = () => {
       {/* <Gallery /> */}
 
       {/* CONTACT US */}
-      {/* <Contact /> */}
+      <Contact />
 
       {/* Footer */}
       <Footer />

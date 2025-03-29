@@ -65,7 +65,7 @@ const Header = () => {
             />
             <div className="flex flex-col text-center">
               <h1 className="text-newGenerationPurple text-xl md:text-2xl font-semibold">
-                New Generation Academy
+                Evangel Academy
                 <span className="text-newGenerationYellow italic text-xl md:text-3xl">
                   !
                 </span>

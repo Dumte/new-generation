@@ -68,7 +68,7 @@ const Hero = () => {
           <h1 className="text-5xl font-bold">
             Welcome to{" "}
             <span className="text-blue-500">
-              New Generation Academy
+              Evangel Academy
               <span className="text-newGenerationYellow italic">!</span>
             </span>
           </h1>
@@ -102,7 +102,7 @@ const Hero = () => {
           Every child deserves the Best Education
         </h2>
         <p className="px-3 text-md text-gray-700">
-          We at New Generation Academy take the priority of every child very
+          We at Evangel Academy take the priority of every child very
           high by providing World-class education and implementing IT-based
           learning atmosphere conducive for kids at all age.
         </p>
