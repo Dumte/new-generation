@@ -63,12 +63,16 @@ const Footer = () => {
             </span>
           </button>
 
+          {/* Social Classes */}
           <SocialClass />
         </div>
       </div>
 
       <hr className="my-6 max-w-[50%] mx-auto md:hidden" />
-      <div className="container mx-auto mt-4 flex flex-col items-center space-y-4 sm:flex-row sm:justify-between sm:space-y-0">
+
+      <div className="flex flex-col ">
+
+      <div className="container mx-auto mt-4 flex flex-col items-center space-y-2 sm:flex-row sm:justify-between sm:space-y-0">
         <div className="text-md font-semibold">
           Copyright &copy;<span className="text-white">{currentYear}</span>. All
           rights reserved
@@ -79,6 +83,10 @@ const Footer = () => {
             Privacy Policy
           </Link>
         </nav>
+      </div>
+      <div className="flex items-center justify-center">
+        <h3 className="text-xs italic text-gray-300">Design and crafted by <Link href="https://linkedin.com/in/dnjosh10" className="text-white hover:underline" >DN Josh</Link></h3>
+      </div>
       </div>
     </footer>
   );
