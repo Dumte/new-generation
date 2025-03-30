@@ -1,4 +1,4 @@
-# New Generation Group of Schools Management Dashboard
+# Evangel Academy School Website
 
 ## Getting Started
 
