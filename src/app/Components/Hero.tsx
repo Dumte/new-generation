@@ -98,7 +98,7 @@ const Hero = () => {
       </div>
 
       <div className="flex flex-col gap-4 items-center mt-4 md:max-w-[50%]">
-        <h2 className="text-3xl font-semibold">
+        <h2 className="px-3 text-3xl font-semibold">
           Every child deserves the Best Education
         </h2>
         <p className="px-3 text-md text-gray-700">

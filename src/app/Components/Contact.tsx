@@ -96,7 +96,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-medium text-gray-800">Email Address</h4>
                   <p className="text-gray-600">info@evangelacademy.edu</p>
-                  <p className="text-gray-600">admissions@evangelacademy.edu</p>
+                  <p className="text-gray-600 text-wrap">admissions@evangelacademy.edu</p>
                 </div>
               </div>
 
