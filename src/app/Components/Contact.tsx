@@ -132,6 +132,7 @@ const ContactSection = () => {
                 <input
                   id="name"
                   type="text"
+                  placeholder="Enter your full name..."
                   {...register("name", { required: "Name is required" })}
                   className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                     errors.name ? "border-red-500" : "border-gray-300"
@@ -155,6 +156,7 @@ const ContactSection = () => {
                   <input
                     id="email"
                     type="email"
+                    placeholder="Enter your email address..."
                     {...register("email", {
                       required: "Email is required",
                       pattern: {
@@ -183,6 +185,7 @@ const ContactSection = () => {
                   <input
                     id="phone"
                     type="tel"
+                    placeholder="Enter your phone number..."
                     {...register("phone")}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   />
@@ -199,6 +202,7 @@ const ContactSection = () => {
                 <input
                   id="subject"
                   type="text"
+                  placeholder="Enter the subject of your message..."
                   {...register("subject", { required: "Subject is required" })}
                   className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                     errors.subject ? "border-red-500" : "border-gray-300"
@@ -220,6 +224,7 @@ const ContactSection = () => {
                 </label>
                 <textarea
                   id="message"
+                  placeholder="Enter your message here..."
                   rows={4}
                   {...register("message", { required: "Message is required" })}
                   className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
