@@ -64,7 +64,7 @@ const Header = () => {
               priority
             />
             <div className="flex flex-col text-center">
-              <h1 className="text-newGenerationPurple text-xl md:text-2xl font-semibold">
+              <h1 className="text-white text-xl md:text-2xl font-semibold">
                 Evangel Academy
                 <span className="text-newGenerationYellow italic text-xl md:text-3xl">
                   !

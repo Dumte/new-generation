@@ -65,3 +65,36 @@ export const academicsLevels = [
   },
 ];
 
+// Sample data for management staff
+export const staffMembers = [
+  {
+    name: "Dr. Nukanate Alobari",
+    position: "Vice Principal (Academics)",
+    bio: "With over 20 years of educational experience, Dr. Smith oversees our academic programs and curriculum development."
+  },
+  {
+    name: "Mrs. `Sarah Letaagha",
+    position: "Vice Principal (Administration)",
+    bio: "Responsible for school operations and staff management with a focus on creating an optimal learning environment."
+  },
+  {
+    name: "Mr. Nwibari Alute",
+    position: "Head of Student Affairs",
+    bio: "Leads our student welfare programs and coordinates extracurricular activities and student services."
+  },
+  {
+    name: "Ms. Franca Lebee",
+    position: "Head of Science Department",
+    bio: "Champions our STEM programs and oversees the science faculty and laboratories."
+  },
+  {
+    name: "Mr. Barisuanu Korka",
+    position: "Head of Humanities",
+    bio: "Leads our arts and humanities programs with a passion for creative and critical thinking."
+  },
+  {
+    name: "Mr. Gbenedum Bariyima",
+    position: "Head of Music and Club",
+    bio: "Incharge of the school musical system."
+  },
+];
