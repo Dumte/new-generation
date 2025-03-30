@@ -42,7 +42,7 @@ const AboutSection = () => {
               <p>
                 Founded in 2004, Evangel Academy began as a small community
                 school with just 10 pupils And 2 teachers. Over the decades, we
-                have grown into one of the region"s most respected Educational
+                have grown into one of the region&apos;s most respected Educational
                 institutions.
               </p>
               <p>
@@ -81,14 +81,14 @@ const AboutSection = () => {
                   <FaUserTie className="text-blue-600 text-xl" />
                 </div>
                 <h3 className="text-2xl font-semibold text-gray-800">
-                  Principal's Welcome
+                  Principal&apos;s Welcome
                 </h3>
               </div>
               <blockquote className="text-gray-700 italic mb-4">
-                "It gives me great pleasure to welcome you to Evangel Academy.
-                Our school is built on the Foundation of academic rigor, moral
-                values, and a commitment to developing each student's Unique
-                potential."
+                &quot;It gives me great pleasure to welcome you to Evangel
+                Academy. Our school is built on the Foundation of academic
+                rigor, moral values, and a commitment to developing each
+                student&apos;s unique potential.&quot;
               </blockquote>
               {/* <p className="text-gray-600 mb-4">
                 [Add principal"s full message here. This could include educational philosophy, vision for 

@@ -38,8 +38,8 @@ const Hero = () => {
   };
 
   return (
-    <section className="h-screen flex flex-col items-center justify-center">
-      <div className="relative w-full h-screen flex flex-col items-center justify-center">
+    <section className="flex flex-col items-center justify-center">
+      <div className="relative w-full flex flex-col items-center justify-center">
         {/* Background Image Slideshow */}
         <div className="absolute inset-0 z-0">
           {slideshow.map((image, index) => (
