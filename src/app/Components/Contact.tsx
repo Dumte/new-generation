@@ -49,6 +49,7 @@ const ContactSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">Contact Us</h2>
+          <div className="w-20 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             We would love to hear from you! Whether you have questions about
             admissions, programs, or just want to say hello, our team is here to
