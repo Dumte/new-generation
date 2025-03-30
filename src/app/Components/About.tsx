@@ -41,13 +41,8 @@ const AboutSection = () => {
             <div className="text-gray-600 space-y-4">
               <p>
                 Founded in 2004, Evangel Academy began as a small community
-<<<<<<< HEAD
                 school with just 10 pupils And 2 teachers. Over the decades, we
                 have grown into one of the region&apos;s most respected Educational
-=======
-                school with just 10 pupils and 2 teachers. Over the decades, we
-                have grown into one of the region's most respected educational
->>>>>>> 9bd4886a7ede4b4d8c84a68d1e381a3b479469c6
                 institutions.
               </p>
               <p>
@@ -87,17 +82,10 @@ const AboutSection = () => {
                 </h3>
               </div>
               <blockquote className="text-gray-700 italic mb-4">
-<<<<<<< HEAD
                 &quot;It gives me great pleasure to welcome you to Evangel
                 Academy. Our school is built on the Foundation of academic
                 rigor, moral values, and a commitment to developing each
                 student&apos;s unique potential.&quot;
-=======
-                "It gives me great pleasure to welcome you to Evangel Academy.
-                Our school is built on the foundation of academic rigor, moral
-                values, and a commitment to developing each student's unique
-                potential."
->>>>>>> 9bd4886a7ede4b4d8c84a68d1e381a3b479469c6
               </blockquote>
               <div className="text-right">
                 <p className="font-semibold text-gray-800">Mr. Barianea Tep</p>
