@@ -45,9 +45,7 @@ const Header = () => {
     { id: "about", label: "About", href: "/#about" },
     { id: "admissions", label: "Admissions", href: "/#admissions" },
     { id: "academics", label: "Academics", href: "/#academics" },
-    { id: "events", label: "Events", href: "/#events" },
-    { id: "newsLetter", label: "News Letter", href: "/#newsLetter" },
-    { id: "gallery", label: "Gallery", href: "/#gallery" },
+ { id: "gallery", label: "Gallery", href: "/#gallery" },
     { id: "contact", label: "Contact Us", href: "/#contact" },
   ];
 
