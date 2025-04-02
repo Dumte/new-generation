@@ -70,7 +70,7 @@ export const staffMembers = [
   {
     name: "Dr. Nukanate Alobari",
     position: "Vice Principal (Academics)",
-    bio: "With over 20 years of educational experience, Dr. Smith oversees our academic programs and curriculum development."
+    bio: "With over 20 years of educational experience, Dr. Alobari oversees our academic programs and curriculum development."
   },
   {
     name: "Mrs. `Sarah Letaagha",
